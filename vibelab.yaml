@@ -1,0 +1,38 @@
+app:
+  name: 圣诞老人水晶球
+  slogan: 轻轻一摇，让圣诞雪景在身边旋转闪耀
+  description: >-
+    《圣诞老人水晶球》是一款为 PICO Swan 空间体验打造的沉浸式节日摆件。精致的圣诞老人、雪松、礼物和小屋组成微缩冬日景观，持续飘落的雪花、闪烁粒子与暖色灯光让水晶球在空间中自然旋转并保持生动氛围。
+    用户可以从不同方向和高低角度欣赏完整场景，也可以通过控制器主按键或扳机触发“摇动水晶球”，让旋转速度、雪花与闪光效果立即增强。它适合节日展示、空间装饰、轻松观赏以及向朋友演示 PICO 空间内容。
+  tags:
+    - 空间体验
+    - 圣诞
+    - 治愈
+  category: application
+  icon: assets/icon.jpg
+  landscape: assets/landscape.png
+  detail_images:
+    - assets/detail-1.png
+    - assets/detail-2.png
+    - assets/detail-3.png
+    - assets/detail-4.png
+    - assets/detail-5.png
+  videos:
+    - file: assets/demo.mp4
+      cover: assets/demo-cover.png
+version:
+  name: 1.0.0
+  notes: |-
+    - 新增完整的圣诞老人水晶球空间场景。
+    - 新增雪花、闪光、暖光呼吸和自动旋转效果。
+    - 支持控制器、触控、鼠标和键盘触发水晶球摇动。
+    - 针对 PICO Swan 模拟器完成构建与运行验证。
+build:
+  repo_url: https://github.com/bingxueyeah/christmas-snow-globe-pico-swan
+  repo_visibility: public
+  tech_stack: unity
+  ai_tool: Trae CLI
+  ai_model: GPT-5
+  features:
+    - none
+  teammates: []

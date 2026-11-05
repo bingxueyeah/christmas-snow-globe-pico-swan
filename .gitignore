@@ -1,0 +1,5 @@
+.vibelab/
+/.pico-env.json
+/assets/
+/.gradle/
+**/build/
